@@ -26,19 +26,24 @@ p{
   clear: both;
   width: 90%;
   height: auto;
-  margin: 2.5%;
   color: black;
+}
+
+.description{
   padding: 2%;
+  margin: 2.5%;
+  padding-top: 0;
+  margin-top: 1.5%;
 }
 
 .foodItem {
+  clear: both;
+  width: 100%;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-}
-
-div>p {
-    padding: 40px 15px 15px 15px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .row{
