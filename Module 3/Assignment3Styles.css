@@ -67,6 +67,8 @@ h1 { /* Company name */
   margin-bottom: 0;
   line-height: .75;
   margin-left: 7%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 h1:hover, h1:focus {
@@ -100,6 +102,8 @@ li{
   clear: both;
   border: 2px solid white;
   margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .navbar-light span.navbar-toggler-icon {
