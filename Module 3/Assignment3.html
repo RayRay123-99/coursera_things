@@ -13,33 +13,26 @@
   <body>
 
     <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg"></a>
+    <nav id="header-nav" class="navbar navbar-light navbar-expand-xs navbar-light xs-light">
+      <a class="navbar-brand" href="#"><h1>Food, LLC</h1></a>
+      
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+  
 
-          <div class="navbar-brand">
-            <a href="Assignment3.html"><h1>Food, LLC</h1></a>
-          </div>
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li><a class="menu-item" href="#">Chicken</a></li>
-            <li><a class="menu-item" href="#">Beef</a></li> 
-            <li><a class="menu-item" href="#">Sushi</a></li> 
+       <!-- Navbar links -->
+       <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="navbar-nav mr-auto visible-xs">
+            <li><a class="menu-item" href="#chicken">Chicken</a></li>
+            <li><a class="menu-item" href="#beef">Beef</a></li> 
+            <li><a class="menu-item" href="#sushi">Sushi</a></li> 
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
         
-      </div>
-    </nav>
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
 
   </header>
 
@@ -49,25 +42,25 @@
 
     <div class= "col-lg-4 col-md-6 col-sm-12">
         <div class="box">
-          <p class="foodItem">Chicken</p>
+          <p id="chicken" class="foodItem">Chicken</p>
 
-          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</p>
+          <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident! <a href="#top">(Back to Top)</a></p>
         </div>
     </div>    
       
       <div class= "col-lg-4 col-md-6 col-sm-12">
           <div class="box">
-            <p class="foodItem">Beef</p>
+            <p id="beef" class="foodItem">Beef</p>
 
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident! <a href="#top">(Back to Top)</a></p>
           </div>
     </div>  
     
     <div class= "col-lg-4 col-md-12 col-sm-12">  
         <div class="box">
-          <p class="foodItem">Sushi</p>
+          <p id="sushi" class="foodItem">Sushi</p>
 
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</p>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident! <a href="#top">(Back to Top)</a></p>
         </div>
     </div>
   </div>  

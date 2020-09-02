@@ -54,13 +54,11 @@ p{
   border-radius: 0;
   border: 0;
   margin-bottom: 15px;
+  padding: 0;
+  margin: 0;
 }
 
-.navbar-brand {
-  padding-top: 25px;
-}
-
-.navbar-brand h1 { /* Company name */
+h1 { /* Company name */
   color: #FFFFFF;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -68,9 +66,16 @@ p{
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  margin-left: 7%;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+
+h1:hover, h1:focus {
+  color: black;
+}
+
+li{
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .menu-item{
@@ -80,16 +85,39 @@ p{
   background-color: white;
   border-bottom: 1px solid black;
   color: black;
+  font-size: 1.4em;
   display: block;
+  text-align: center;
 }
 
+.menu-item:hover{
+  background-color: #D3D3D3;
+  color: #8B008B;
+}
+
+/** Changing style of dropdown menu **/
+.navbar button.navbar-toggler{ 
+  clear: both;
+  border: 2px solid white;
+  margin-right: 2%;
+}
+
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
 /** END HEADER **/
+
 
 @media (min-width: 992px){
   .col-lg-4{
     float: left;
     width: 33.33%;
   }
+  
+  button{ 
+    display: none; 
+  } 
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -102,6 +130,10 @@ p{
     float: left;
     width: 100%;
   }
+  
+  button{ 
+    display: none; 
+  } 
 }
 
 @media (max-width: 767px){
@@ -109,4 +141,8 @@ p{
     float:left;
     width: 100%;
   }
+  
+  button{ 
+    display: block; 
+  } 
 }
