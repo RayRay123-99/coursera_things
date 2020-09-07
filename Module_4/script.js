@@ -67,8 +67,8 @@ for (var i = 0; i < names.length; i++) {
   firstLetter = firstLetter.toLowerCase();
 
   if (firstLetter === "j") {
-    byeSpeaker.speak(names[i])
+    byeSpeaker(names[i])
   } else {
-    helloSpeaker.speak(names[i])
+    helloSpeaker(names[i])
   }
 }
