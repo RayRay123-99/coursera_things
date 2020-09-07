@@ -55,20 +55,21 @@ WARNING!!! WARNING!!!
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
 
+(function () {
+  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
+  for (var i = 0; i < names.length; i++) {
 
-for (var i = 0; i < names.length; i++) {
+    // Retrieve first letter of each name
+    var firstLetter = names[i].charAt(0);
 
-  // Retrieve first letter of each name
-  var firstLetter = names[i].charAt(0);
+    firstLetter = firstLetter.toLowerCase();
 
-  firstLetter = firstLetter.toLowerCase();
-
-  if (firstLetter === "j") {
-    byeSpeaker(names[i])
-  } else {
-    helloSpeaker(names[i])
+    if (firstLetter === "j") {
+      byeSpeaker(names[i])
+    } else {
+      helloSpeaker(names[i])
+    }
   }
-}
+})();  
