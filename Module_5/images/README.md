@@ -1,1 +1,0 @@
-Placed images in here
